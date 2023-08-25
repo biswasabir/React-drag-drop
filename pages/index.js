@@ -144,7 +144,7 @@ export default function Home() {
       >
         <Flex py="4rem" flexDir="column" align="center">
           <Heading fontSize="3xl" fontWeight={600}>
-            react-beautiful-dnd
+            Drag & Drop UI test
           </Heading>
           <Text fontSize="20px" fontWeight={600} color="subtle-text"></Text>
         </Flex>
@@ -159,10 +159,10 @@ export default function Home() {
 
 const initialData = {
   tasks: [
-    { id: 1, content: "The first task" },
-    { id: 2, content: "The second task" },
-    { id: 3, content: "The third task" },
-    { id: 4, content: "The fourth task" },
-    { id: 5, content: "The fifth task" },
+    { id: 1, content: "Widget A" },
+    { id: 2, content: "Widget B" },
+    { id: 3, content: "Widget C" },
+    { id: 4, content: "Widget D" },
+    { id: 5, content: "Widget E" },
   ],
 };
